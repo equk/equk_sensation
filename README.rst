@@ -30,9 +30,39 @@ Current ROM
 * Kernel: Linux 3.0.48
 * Patched 4.2 Camera
 * 4.2 Swype Style Keyboard
+* Recovery: CWM 5.0.2.0
+
+Custom Tweaks
+-------------
+
 * RIL Tweaks for better signal
 * Dalvik Tweaks for performance
-* Recovery: CWM 5.0.2.0
+* Memory Tweaks via linux kernel
+* DNS forced to OpenDNS
+* Custom hosts file for AdBlocking
+* Custom SSH Tunnel scripts
+* VPN Tun Adapter
+
+Startup Scripts
+---------------
+
+.. code-block:: bash
+
+	echo 3 > /proc/sys/vm/drop_caches
+
+memory before and after linux kernel mem tweak
+
+.. code-block:: bash
+
+				 total         used         free       shared      buffers
+	Mem:        595664       532216        63448            0        20100
+	-/+ buffers:             512116        83548
+	Swap:            0            0            0
+				 total         used         free       shared      buffers
+	Mem:        595664       320424       275240            0          212
+	-/+ buffers:             320212       275452
+	Swap:            0            0            0
+
 
 
 .. image:: https://github.com/equk/equk_sensation/raw/master/screenshot.png
