@@ -1,2 +1,0 @@
-equk_sensation
-==============
