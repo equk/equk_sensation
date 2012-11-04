@@ -27,10 +27,12 @@ Current ROM
 -----------
 
 * OS: Jellybean v4.1.2
-* Kernel: Linux 3.0.48
+* Kernel: Linux 3.0.50
 * Patched 4.2 Camera
 * 4.2 Swype Style Keyboard
 * Recovery: CWM 5.0.2.0
+* PDroid 1.32
+* Paranoid Android
 
 Custom Tweaks
 -------------
@@ -42,6 +44,8 @@ Custom Tweaks
 * Custom hosts file for AdBlocking
 * Custom SSH Tunnel scripts
 * VPN Tun Adapter
+* Youtube custom tablet mode
+* Beats Audio
 
 Startup Scripts
 ---------------
@@ -54,11 +58,11 @@ memory before and after linux kernel mem tweak
 
 .. code-block:: bash
 
-				 total         used         free       shared      buffers
+	n			 total         used         free       shared      buffers
 	Mem:        595664       532216        63448            0        20100
 	-/+ buffers:             512116        83548
 	Swap:            0            0            0
-				 total         used         free       shared      buffers
+	n			 total         used         free       shared      buffers
 	Mem:        595664       320424       275240            0          212
 	-/+ buffers:             320212       275452
 	Swap:            0            0            0
