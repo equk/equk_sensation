@@ -27,26 +27,24 @@ Current ROM
 -----------
 
 * OS: Jellybean v4.1.2
-* Kernel: Linux 3.0.50
+* Kernel: Linux 3.0.49
 * Patched 4.2 Camera
 * 4.2 Swype Style Keyboard
 * Recovery: CWM 5.0.2.0
 * PDroid 1.32
 * Paranoid Android
 
+Kernel Source: https://github.com/bruce2728/android_device_htc_pyramid
+Paranoid Android: http://paranoid-rom.com/
+
 Custom Tweaks
 -------------
 
-* RIL Tweaks for better signal
-* Dalvik Tweaks for performance
-* Memory Tweaks via linux kernel
+* Dalvik Tweaks
+* Kernel Mem Tweaks
 * DNS forced to OpenDNS
 * Custom hosts file for AdBlocking
-* Custom SSH Tunnel scripts
-* VPN Tun Adapter
-* Youtube custom tablet mode
-* Beats Audio
-* Beckground Process Limit 4
+* Custom SSH Tunnel scripts (redsocks)
 
 Startup Scripts
 ---------------
