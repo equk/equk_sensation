@@ -46,6 +46,7 @@ Custom Tweaks
 * VPN Tun Adapter
 * Youtube custom tablet mode
 * Beats Audio
+* Beckground Process Limit 4
 
 Startup Scripts
 ---------------
@@ -58,11 +59,11 @@ memory before and after linux kernel mem tweak
 
 .. code-block:: bash
 
-	n			 total         used         free       shared      buffers
+	n		 total         used         free       shared      buffers
 	Mem:        595664       532216        63448            0        20100
 	-/+ buffers:             512116        83548
 	Swap:            0            0            0
-	n			 total         used         free       shared      buffers
+	n		 total         used         free       shared      buffers
 	Mem:        595664       320424       275240            0          212
 	-/+ buffers:             320212       275452
 	Swap:            0            0            0

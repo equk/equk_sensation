@@ -1,0 +1,88 @@
+# equk build.prop tweaks
+#
+# updated: 05 Nov 2012
+#
+# a few tweaks from various sources
+#
+# add to bottom of existing build.prop from rom
+
+
+# Modify MMS APN retry timer from 5s to 2s.
+ro.gsm.2nd_data_retry_config = max_retries=3, 2000, 2000, 2000
+
+# pyramid RF team request
+ro.ril.enable.dtm=0
+ro.ril.gprsclass=12
+ro.ril.hsdpa.category=10
+ro.ril.hsupa.category=6
+ro.ril.hsxpa=3
+
+# Default network type.
+# 0 => WCDMA preferred.
+ro.telephony.default_network=0
+
+wifi.interface=wlan0
+wifi.supplicant_scan_interval=120
+wifi.softap.interface=wlan0
+wifi.softapconcurrent.interface=wl0.1
+
+# For the default value of agps
+ro.ril.def.agps.mode=2
+
+# For HSDPA low throughput
+ro.ril.disable.power.collapse=1
+
+# Enable SIM Hot-Swap feature
+ro.ril.enable.sim.hot.swap=1
+
+# release Bluetooth HW/SW information
+ro.bt.chipset=Broadcom BCM4329-B1
+ro.bt.stack=Broadcom BTL-A
+ro.bt.stack.version=2.0.50.032
+#0x10000010010100101000011 represent bt profile list
+ro.bt.profiles=4270403
+
+# Properties of BTLA stack
+service.brcm.bt.activation=0
+service.brcm.bt.srv_active=0
+service.brcm.bt.hcid_active=0
+service.brcm.bt.btld=0
+service.brcm.bt.btld_pid=0
+service.brcm.bt.avrcp_pass_thru=0
+service.brcm.bt.avrcp_toggle=1
+service.brcm.bt.local_name=
+
+# Following property will be reference by Settings.
+ro.product.processor=1.5GHz Qualcomm MSM8660 Dual-Core
+ro.product.ram=768MB
+ro.product.display_resolution=4.3 inch qHD resolution
+ro.product.main_camera=8M
+ro.product.front_camera=VGA
+ro.product.bluetooth=3.0
+ro.product.wifi=802.11 b/g/n
+
+# For ext4 file system
+ro.ext4fs=1
+
+# Dalvik Tweaks
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heapgrowthlimit=64m
+dalvik.vm.heapsize=256m
+dalvik.vm.heaputilization=0.25
+dalvik.vm.heapidealfree=8388608
+dalvik.vm.heapconcurrentstart=2097152
+dalvik.vm.lockprof.threshold=500
+dalvik.vm.dexopt-flags=m=y
+dalvik.vm.execution-mode=int:jit
+
+# Disable sending data and logging
+ro.kernel.android.checkjni=0
+ro.kernel.checkjni=0
+dalvik.vm.checkjni=false
+profiler.force_disable_err_rpt=1
+profiler.force_disable_ulog=1
+
+# Media settings
+ro.media.dec.jpeg.memcap=20000000
+ro.media.enc.hprof.vid.bps=8000000
+ro.media.enc.jpeg.quality=100
