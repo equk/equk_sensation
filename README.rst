@@ -27,7 +27,7 @@ Current ROM
 -----------
 
 * OS: Jellybean v4.1.2
-* Kernel: Linux 3.0.49
+* Kernel: Linux 3.0.50
 * Patched 4.2 Camera
 * 4.2 Swype Style Keyboard
 * Recovery: CWM 5.0.2.0
@@ -49,11 +49,24 @@ Custom Tweaks
 Startup Scripts
 ---------------
 
+85equk_kernel
+-------------
+set kernel based settings on startup (usb fast charge, sweep2wake, cpu governor, I/O scheduler)
+install kernel modules on startup if flagged (tun.ko)
+start zram if required
+
+example log:
 .. code-block:: bash
+	cat /data/equk_kernel.log
+	Setting Kernel Preferences - 11-07-2012 12:19:01
+	setting fast charge to 0
+	setting sweep2wake to 0
+	setting governor to to ondemand
+	setting scheduler to to noop
+	Setting drop caches
 
-	echo 3 > /proc/sys/vm/drop_caches
-
-memory before and after linux kernel mem tweak
+also enables kernel drop caches tweak
+memory before and after linux kernel drop caches tweak
 
 .. code-block:: bash
 
@@ -66,6 +79,9 @@ memory before and after linux kernel mem tweak
 	-/+ buffers:             320212       275452
 	Swap:            0            0            0
 
+90equk_zipalign
+---------------
+zipalign everything installed to /data/app/ (as everything in /system/app should already be aligned)
 
 
 .. image:: https://github.com/equk/equk_sensation/raw/master/screenshot.png

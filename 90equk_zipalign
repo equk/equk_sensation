@@ -1,0 +1,34 @@
+#!/system/bin/sh
+#
+# zip align apps for android - equk.co.uk
+#
+# notes: this script can be used on startup as init.d script
+#        may slow boot time depending on how many apps etc you have installed
+#
+###
+# zipalign info: developer.android.com/tools/help/zipalign.html
+###
+LOG_FILE=/data/zipalign.log
+    if [ -e $LOG_FILE ]; then
+    	rm $LOG_FILE;
+    fi;
+    	
+echo "Starting ZipAlign $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG_FILE;
+    for apk in /data/app/*.apk ; do
+	zipalign -c 4 $apk;
+	ZIPCHECK=$?;
+	if [ $ZIPCHECK -eq 1 ]; then
+		echo ZipAligning $(basename $apk)  | tee -a $LOG_FILE;
+		zipalign -f 4 $apk /cache/$(basename $apk);
+			if [ -e /cache/$(basename $apk) ]; then
+				cp -f -p /cache/$(basename $apk) $apk  | tee -a $LOG_FILE;
+				rm /cache/$(basename $apk);
+			else
+				echo ZipAligning $(basename $apk) Failed  | tee -a $LOG_FILE;
+			fi;
+	else
+		echo ZipAlign already completed on $apk  | tee -a $LOG_FILE;
+	fi;
+       done;
+echo "ZipAlign finished at $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG_FILE;
+
