@@ -34,8 +34,8 @@ Current ROM
 * PDroid 1.32
 * Paranoid Android
 
-Kernel Source: https://github.com/bruce2728/android_device_htc_pyramid
-Paranoid Android: http://paranoid-rom.com/
+|Kernel Source: https://github.com/bruce2728/android_device_htc_pyramid
+|Paranoid Android: http://paranoid-rom.com/
 
 Custom Tweaks
 -------------
@@ -51,11 +51,12 @@ Startup Scripts
 
 85equk_kernel
 -------------
-set kernel based settings on startup (usb fast charge, sweep2wake, cpu governor, I/O scheduler)
-install kernel modules on startup if flagged (tun.ko)
-start zram if required
+|set kernel based settings on startup (usb fast charge, sweep2wake, cpu governor, I/O scheduler)
+|install kernel modules on startup if flagged (tun.ko)
+|start zram if required
 
 example log:
+
 .. code-block:: bash
 	cat /data/equk_kernel.log
 	Setting Kernel Preferences - 11-07-2012 12:19:01
@@ -65,8 +66,8 @@ example log:
 	setting scheduler to to noop
 	Setting drop caches
 
-also enables kernel drop caches tweak
-memory before and after linux kernel drop caches tweak
+|also enables kernel drop caches tweak
+|memory before and after linux kernel drop caches tweak
 
 .. code-block:: bash
 
