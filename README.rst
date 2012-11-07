@@ -16,7 +16,7 @@ Most of it is aimed specifically at the HTC Sensation/XE
 	Resolution: 540 x 960 pixels
 	Protection: Corning Gorilla Glass
 	Camera: 8 MP, 3264x2448 pixels
-				   autofocus, dual-LED flash
+	        autofocus, dual-LED flash
 
 	OS: Google Android Jellybean v4.1.2
 
@@ -34,11 +34,11 @@ Current ROM
 * PDroid 1.32
 * Paranoid Android
 
-|Kernel Source: https://github.com/bruce2728/android_device_htc_pyramid
-|Paranoid Android: http://paranoid-rom.com/
+*Kernel Source:* https://github.com/bruce2728/android_device_htc_pyramid
 
-Custom Tweaks
--------------
+*Paranoid Android:* http://paranoid-rom.com/
+
+**Tweaks**
 
 * Dalvik Tweaks
 * Kernel Mem Tweaks
@@ -49,15 +49,17 @@ Custom Tweaks
 Startup Scripts
 ---------------
 
-85equk_kernel
--------------
-|set kernel based settings on startup (usb fast charge, sweep2wake, cpu governor, I/O scheduler)
-|install kernel modules on startup if flagged (tun.ko)
-|start zram if required
+**85equk_kernel**
+
+* set kernel based settings on startup (usb fast charge, sweep2wake, cpu governor, I/O scheduler)
+* install kernel modules on startup if flagged (tun.ko)
+* start zram if required
+* enable kernel drop caches
 
 example log:
 
 .. code-block:: bash
+
 	cat /data/equk_kernel.log
 	Setting Kernel Preferences - 11-07-2012 12:19:01
 	setting fast charge to 0
@@ -66,8 +68,7 @@ example log:
 	setting scheduler to to noop
 	Setting drop caches
 
-|also enables kernel drop caches tweak
-|memory before and after linux kernel drop caches tweak
+memory before and after linux kernel drop caches tweak
 
 .. code-block:: bash
 
@@ -80,9 +81,9 @@ example log:
 	-/+ buffers:             320212       275452
 	Swap:            0            0            0
 
-90equk_zipalign
----------------
-zipalign everything installed to /data/app/ (as everything in /system/app should already be aligned)
+**90equk_zipalign**
+
+zipalign everything installed to /data/app/ (as everything in /system/app/ should already be aligned)
 
 
 .. image:: https://github.com/equk/equk_sensation/raw/master/screenshot.png
