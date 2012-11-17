@@ -27,14 +27,15 @@ Current ROM
 -----------
 
 * OS: Jellybean v4.1.2
-* Kernel: Linux 3.0.50
+* Kernel: Linux 3.0.51
 * Patched 4.2 Camera
 * 4.2 Swype Style Keyboard
 * Recovery: CWM 5.0.2.0
 * PDroid 1.32
 * Paranoid Android
+* Custom Kernel Init Scripts
 
-*Kernel Source:* https://github.com/bruce2728/android_device_htc_pyramid
+*Kernel Source:* https://github.com/bruce2728/android_kernel_htc_pyramid
 
 *Paranoid Android:* http://paranoid-rom.com/
 
