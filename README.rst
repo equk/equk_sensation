@@ -5,6 +5,8 @@ This section has a few scripts I have written for tweaking/hacking the Google An
 
 Most of it is aimed specifically at the HTC Sensation/XE
 
+Currently using Cyanogen 10.2 Google Android Jellybean 10.3
+
 .. code-block:: bash
 
 	Device: HTC Sensation
@@ -18,7 +20,7 @@ Most of it is aimed specifically at the HTC Sensation/XE
 	Camera: 8 MP, 3264x2448 pixels
 	        autofocus, dual-LED flash
 
-	OS: Google Android Jellybean v4.1.2
+	OS: Google Android Jellybean v4.3
 
 	Firmware: 3.33
 	Features: S-OFF, Unlocked, Rooted, SuperCID
@@ -26,24 +28,19 @@ Most of it is aimed specifically at the HTC Sensation/XE
 Current ROM
 -----------
 
-* OS: Jellybean v4.1.2
-* Kernel: Linux 3.0.51
-* Patched 4.2 Camera
-* 4.2 Swype Style Keyboard
-* Recovery: CWM 5.0.2.0
-* PDroid 1.32
-* Paranoid Android
-* Custom Kernel Init Scripts
+* OS: Jellybean v4.3
+* Kernel: Linux 3.0.93
+* Recovery: TWRP 2.6.0.0
 
-*Kernel Source:* https://github.com/bruce2728/android_kernel_htc_pyramid
+*Kernel Source:* https://github.com/sultanxda/sultan-kernel-bruce-linaro3
+*CM10.2 Device Branch:* https://github.com/sultanxda/android_device_htc_pyramid
 
-*Paranoid Android:* http://paranoid-rom.com/
 
 **Tweaks**
 
 * Dalvik Tweaks
 * Kernel Mem Tweaks
-* DNS forced to OpenDNS
+* Nameserver forced to OpenDNS
 * Custom hosts file for AdBlocking
 * Custom SSH Tunnel scripts (redsocks)
 
