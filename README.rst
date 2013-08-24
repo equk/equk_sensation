@@ -32,8 +32,13 @@ Current ROM
 * Kernel: Linux 3.0.93
 * Recovery: TWRP 2.6.0.0
 
+Related Links:
+
 `Kernel Source <https://github.com/sultanxda/sultan-kernel-bruce-linaro3>`_
+
 `Cyanogen Device Branch <https://github.com/sultanxda/android_device_htc_pyramid>`_
+
+`Team Win Recovery Project <http://www.teamw.in/project/twrp2>`_
 
 
 **Tweaks**
@@ -83,7 +88,3 @@ memory before and after linux kernel drop caches tweak
 
 zipalign everything installed to /data/app/ (as everything in /system/app/ should already be aligned)
 
-
-.. image:: https://github.com/equk/equk_sensation/raw/master/screenshot.png
-   :align: center
-   :alt: android_screenshot
