@@ -5,7 +5,7 @@ This section has a few scripts I have written for tweaking/hacking the Google An
 
 Most of it is aimed specifically at the HTC Sensation/XE
 
-Currently using Cyanogen 10.2 Google Android Jellybean 10.3
+Currently using Cyanogen 10.2 Google Android Jellybean 4.3
 
 .. code-block:: bash
 
@@ -32,8 +32,8 @@ Current ROM
 * Kernel: Linux 3.0.93
 * Recovery: TWRP 2.6.0.0
 
-*Kernel Source:* https://github.com/sultanxda/sultan-kernel-bruce-linaro3
-*CM10.2 Device Branch:* https://github.com/sultanxda/android_device_htc_pyramid
+`Kernel Source <https://github.com/sultanxda/sultan-kernel-bruce-linaro3>`_
+`Cyanogen Device Branch <https://github.com/sultanxda/android_device_htc_pyramid>`_
 
 
 **Tweaks**
