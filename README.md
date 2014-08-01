@@ -29,7 +29,7 @@ Current ROM
 -----------
 
 * OS: KitKat v4.4.4
-* Kernel: Linux 3.7.82
+* Kernel: Linux 3.4.82
 * Recovery: 4EXT
 
 Source(s):
