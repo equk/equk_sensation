@@ -28,8 +28,8 @@ Currently using Cyanogen 11 Google Android KitKat 4.4.4 with linux 3.4 kernel fr
 Current ROM
 -----------
 
-* OS: KitKat v3.4.82
-* Kernel: Linux 3.0.93
+* OS: KitKat v4.4.4
+* Kernel: Linux 3.7.82
 * Recovery: 4EXT
 
 Source(s):
