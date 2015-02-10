@@ -6,7 +6,7 @@ A lot of the scripts are in the old folder as they are no longer used or are int
 
 Most of it is aimed specifically at the HTC Sensation XE
 
-Currently using Cyanogen 11 Google Android KitKat 4.4.4 with linux 3.4 kernel from msm8960 running SELinux
+Currently using Cyanogen 12 Google Android Lollipop 5.0.2 with linux 3.4 kernel from msm8960 running SELinux
 
 
     Device: HTC Sensation
@@ -28,11 +28,11 @@ Currently using Cyanogen 11 Google Android KitKat 4.4.4 with linux 3.4 kernel fr
 Current ROM
 -----------
 
-* OS: KitKat v4.4.4
-* Kernel: Linux 3.4.82
+* OS: Lollipop 5.0.2
+* Kernel: Linux 3.4.105
 * Recovery: 4EXT
 
 Source(s):
 
-* [Kernel Source](https://github.com/Flemmard/akh8960_cm)
-* [Cyanogen Device Branch](https://github.com/Flemmard/android_device_htc_pyramid)
+* [Kernel Source](https://github.com/ivanich/android_kernel_htc_pyramid/commits/cm-11.0)
+* [Cyanogen Device Branch](https://github.com/ivanich/android_device_htc_pyramid/commits/cm-11.0)
