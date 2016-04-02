@@ -1,12 +1,9 @@
 equk_sensation
 ==============
 
-This section has a few scripts I have written for tweaking/hacking the Google Android OS.
-A lot of the scripts are in the old folder as they are no longer used or are integrated into KitKat.
+HTC Sensation XE Scripts for tweaking Google Android OS & Linux Kernel
 
-Most of it is aimed specifically at the HTC Sensation XE
-
-Currently using Cyanogen 12 Google Android Lollipop 5.0.2 with linux 3.4 kernel from msm8960 running SELinux
+Currently using CyanogenMod 12.1 Google Android Lollipop 5.1.1 with linux 3.4 kernel from msm8960 running SELinux
 
 
     Device: HTC Sensation
@@ -20,19 +17,30 @@ Currently using Cyanogen 12 Google Android Lollipop 5.0.2 with linux 3.4 kernel 
     Camera: 8 MP, 3264x2448 pixels
             autofocus, dual-LED flash
 
-    OS: Google Android KitKat v4.4.4
-
     Firmware: 3.33
     Features: S-OFF, Unlocked, Rooted, SuperCID
 
 Current ROM
 -----------
 
-* OS: Lollipop 5.0.2
-* Kernel: Linux 3.4.105
-* Recovery: 4EXT
+* OS: Lollipop 5.1.1 (CyanogenMod 12.1)
+* Kernel: Linux 3.4.110
+* Recovery: [TWRP 3.0.1-0](https://twrp.me/)
+* GApps: [opengapps.org pico](http://opengapps.org/)
+* Removed: Exchange Services, Mail
 
 Source(s):
 
-* [Kernel Source](https://github.com/ivanich/android_kernel_htc_pyramid/commits/cm-11.0)
-* [Cyanogen Device Branch](https://github.com/ivanich/android_device_htc_pyramid/commits/cm-11.0)
+* [Kernel Source](https://github.com/ivanich/android_kernel_htc_pyramid/commits/cm-12.1)
+* [Cyanogen Device Branch](https://github.com/ivanich/android_device_htc_pyramid/commits/cm-12.1)
+
+Old Folder
+----------
+
+* Kernel Scripts
+* Custom build.prop tweaks
+* zipalign script
+* RAM tweaks
+* CPU governor
+* IO Scheduler
+* Fast Charge
