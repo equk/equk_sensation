@@ -3,7 +3,7 @@ equk_sensation
 
 HTC Sensation XE Scripts for tweaking Google Android OS & Linux Kernel
 
-Currently using CyanogenMod 12.1 Google Android Lollipop 5.1.1 with linux 3.4 kernel from msm8960 running SELinux
+Currently using CyanogenMod 13 Google Android Marshmallow 6.0.1 with linux 3.4.112 kernel from msm8960 running SELinux
 
 
     Device: HTC Sensation
@@ -23,16 +23,16 @@ Currently using CyanogenMod 12.1 Google Android Lollipop 5.1.1 with linux 3.4 ke
 Current ROM
 -----------
 
-* OS: Lollipop 5.1.1 (CyanogenMod 12.1)
-* Kernel: Linux 3.4.110
+* OS: Lollipop 6.0.1 (CyanogenMod 13)
+* Kernel: Linux 3.4.112
 * Recovery: [TWRP 3.0.1-0](https://twrp.me/)
 * GApps: [opengapps.org pico](http://opengapps.org/)
 * Removed: Exchange Services, Mail
 
 Source(s):
 
-* [Kernel Source](https://github.com/ivanich/android_kernel_htc_pyramid/commits/cm-12.1)
-* [Cyanogen Device Branch](https://github.com/ivanich/android_device_htc_pyramid/commits/cm-12.1)
+* [Kernel Source](https://github.com/ivanich/android_kernel_htc_pyramid/tree/cm-13.0)
+* [Cyanogen Device Branch](https://github.com/ivanich/android_device_htc_pyramid/tree/cm-13.0)
 
 Old Folder
 ----------
